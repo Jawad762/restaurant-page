@@ -1,0 +1,282 @@
+body {
+    background: rgba(0, 0, 0, 0.85) url(https://wallpaperaccess.com/full/3692740.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    max-width:100vw;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blurred-header {
+    max-width:100vw;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: blur(3px);
+}
+
+.bisque-underline {
+    border-bottom: 3px solid bisque;
+}
+
+.black-underline {
+    border-bottom: 3px solid black;
+}
+
+
+.left-side {
+    display: flex;
+    position: relative;
+    left:100px;
+    gap: 15px;
+    top: 2px;
+}
+
+.header-img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right:5px;
+    top:15px;
+    background-color: bisque;
+    border-radius: 50%;
+    border: none;
+}
+
+.bisque {
+    color: bisque;
+}
+
+.black {
+    color: black;
+}
+
+
+.nav-bar {
+    display: flex;
+    position: absolute;
+    right: 5%;
+    gap:15px;
+}
+
+.btn {
+    text-align: center;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    position: relative;
+    bottom: 2px;
+}
+
+.no-border {
+    border: none;
+}
+
+
+.home {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    place-items: center;
+    position: relative;
+    top:100px;
+}
+
+h2 {
+    color: bisque;
+    font-size: 60px;
+}
+
+.home-text {
+    color: bisque;
+    font-size: 25px;
+    position: relative;
+    bottom: 55px;
+}
+
+
+.order {
+    background: none;
+    color: bisque;
+    border-radius: 15%;
+    font-size: 18px;
+    width: fit-content;
+    border: 2px solid burlywood;
+    cursor: pointer;
+    position: relative;
+    bottom:50px;
+    padding: 5px 10px 5px 10px;
+}
+
+.order:hover {
+    background: burlywood;
+    color: black;
+}
+
+.card {
+    background-color: bisque;
+    width:260px;
+    max-height:290px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.card-img {
+    width: 100%;
+    height:72%;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+
+input {
+    width: 250px;
+    height:40px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    background: bisque;
+}
+
+.menu {
+    display: grid;
+    margin: 0 auto;
+    gap:40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100vw;
+    position: relative;
+    bottom:60px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.viewMore {
+    cursor: pointer;
+    height: fit-content;
+    border: none;
+    text-decoration-line: underline;
+    background: none;
+    position: relative;
+    top:26px;
+    padding: 5px;
+}
+
+.viewMore:hover {
+    text-decoration: none;
+}
+
+
+.popular {
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+    top:80px;
+    text-decoration-style:double;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: bisque;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top:80px;
+    width:fit-content;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 white;
+    border-radius: 20px;
+}
+
+.about-text {
+    width:500px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+
+.est {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+h4 {
+    margin: auto;
+    font-weight: 900;
+}
+
+
+.modal-card {
+    position: fixed;
+    top:18%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: fit-content;
+    max-height: 450px;
+    margin: 0 auto;
+    background-color: bisque;
+    color: black;
+    box-shadow: 0 4px 8px 0 black;
+    place-items: center;
+    overflow: auto;
+}
+
+.modal-img {
+    width:100%;
+    height:250px;
+}
+
+.close {
+    border-radius: 15%;
+    font-size: 18px;
+    width: fit-content;
+    border: 1px solid black;
+    background-color: bisque;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.card-meal-name {
+    font-size: 25px;
+}
+
+.loading {
+    position: relative;
+}
