@@ -5,14 +5,10 @@ body {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
-
-#root {
-    position: fixed;
-    inset:0;
-  }
 
 .header {
     max-width:100vw;
