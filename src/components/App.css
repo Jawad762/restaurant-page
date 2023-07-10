@@ -5,6 +5,11 @@ body {
     background-repeat: no-repeat;
 }
 
+#root {
+    position: fixed;
+    inset:0;
+  }
+
 .header {
     max-width:100vw;
     height:90px;
